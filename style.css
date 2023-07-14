@@ -1,0 +1,61 @@
+body
+{
+background: url(./download.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+#heading
+{
+   height: 75px;
+   width: 600px;
+   background: black;
+   color:black;
+   margin: auto;
+   margin-top: 55px;
+   border-bottom-left-radius: 30%;
+   border-top-right-radius: 30%;
+   border-bottom-right-radius:30% ;
+   border-top-left-radius: 30%;
+   border: 2px solid black;
+   margin-bottom: 2%;
+   background-color: rgba(0, 0, 0,0.11)
+   
+}
+#heading h1
+{
+font-size: xx-large;
+font-style: italic;
+text-align: center;
+padding-top: 1px;
+}
+form
+{
+font-size: x-large;
+font-style: italic;
+background:powderblue;
+width: 400px;
+height: 1000px;
+padding-left:10%;
+padding-right: 5%;
+margin: auto;
+color:black;
+}
+#sucess
+{
+   background:cyan;
+   height: 50%;
+   width: 50%;
+   text-align: center;
+   padding-top: 3%;
+   margin:auto;
+   
+}
+#edit
+{  
+   height: 100px;
+   width: 500px;
+   background: white;
+   text-align: center;
+   margin: auto;
+   padding-top:1%;
+}

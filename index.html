@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-CIvmxS--lF1H2lpSFm0CnB9-jWWEkoSWzQ&usqp=CAU" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   
+    <div id="heading">
+    <h1>Registration Form</h1>
+    </div>
+
+    <form action="./sucess.html">
+        <label for="firstname"> <b>First Name:</b></label> <br> 
+         <input type="text" name="firstname" placeholder="Enter your firstname" required>  <br> <br>
+        
+        <label for="lastname"> <b>Last Name:</b></label> <br>
+         <input type="text" name="lastname" placeholder="Enter your lastname" required>  <br> <br>
+        
+        <label for="email"><b>Email Id:</b></label> <br>
+         <input type="email" name="email" placeholder="Enter your mail Id" required>   <br> <br>
+        
+        <label for="date"> <b>Date Of Birth:</b></label> <br>
+        <input type="date" name="date" id="" required>   <br> <br>
+
+       <label for="Password"> <b>Password:</b></label> <br>
+        <input type="password" name="password" password="Enter your password" required> <br> <br>
+
+        <label for="age"> <b>Age:</b></label> <br>
+        <input type="number" name="age" placeholder="Enter your age" reqired> <br> <br>
+
+        <label for="gender"><b>Gender:</b></label> <br>
+        <input type="radio" name="gender" required>Male
+        <input type="radio" name="gender">Female
+        <input type="radio" name="gender">Others <br><br>
+
+        <label for="ques"><b>What are all your hobbies?</b></label> <br>
+        <input type="checkbox" name="ques" >Singing <br>
+        <input type="checkbox" name="ques">Riding <br>
+        <input type="checkbox" name="ques">Travelling <br>
+        <input type="checkbox" name="ques">Dancing <br>
+        <input type="checkbox" name="ques">Others  <br><br>
+        
+        <label for="ques"><b>What is in your mind?</b></label> <br>
+        <input type="search" name="" id="" placeholder="Search your thoughts!" required> <br><br>
+
+        <label for="dd"><b>Select your option using dropdown box:</b></label>
+        <select>
+            <option value="">Student</option>
+            <option value="">Professor</option>
+            <option value="">Frontend Developer</option>
+            <option value="">Backend Developer</option> 
+        </select> <br><br>
+
+<input type= "submit">
+
+
+    </form>
+</body>
+</html>
